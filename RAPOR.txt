@@ -1,0 +1,21 @@
+Introduction
+The purpose of this project is to implement a perceptron, a basic unit of artificial neural networks, and measure the time it takes for the perceptron to make a prediction for a given input. The perceptron is designed to mimic a logical gate, and its behavior is analyzed by observing the output for different inputs. The main objective is to gain practical experience in implementing and evaluating the performance of a perceptron.
+
+Implementation Details
+The implementation is done using the C programming language in Visual Studio Code. The code consists of a struct definition for the perceptron, functions to initialize the perceptron and make predictions, and the main function for execution. The perceptron is initialized with two inputs, specific weights (-0.400000 and -0.530000), and a threshold value of 0.250000. The predict function calculates the weighted sum of inputs, adds the threshold, and applies an activation function to produce the output. The main function initializes the perceptron, provides an input (1, 1), and measures the time taken for the perceptron to make a prediction using the clock() function.
+
+Project Objectives
+
+Implement a perceptron in C and understand its key components such as inputs, weights, and the activation function.
+Mimic a logical gate using the perceptron and analyze its behavior for different inputs.
+Measure the time taken by the perceptron to make a prediction for a specific input.
+Gain practical experience in coding and evaluating the performance of a perceptron.
+Key Learnings
+
+Understanding the structure and components of a perceptron, including inputs, weights, and thresholds.
+Implementing a perceptron in C and initializing its parameters.
+Analyzing the behavior of the perceptron to determine the logical gate it mimics.
+Using the clock() function to measure the execution time of a program.
+Evaluating the efficiency and performance of the perceptron based on the measured time.
+Conclusion
+This project successfully implemented a perceptron in C and measured the time taken for it to make a prediction for a given input. By observing the output for different inputs, it was determined that the perceptron mimics the behavior of a logical AND gate. The project provided practical experience in coding a perceptron, understanding its components, and evaluating its performance based on execution time. The gained knowledge can be extended to more complex neural networks and machine learning applications.
